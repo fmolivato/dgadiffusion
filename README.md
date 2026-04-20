@@ -1,1 +1,1 @@
-# discriminator-adaptive-diffusion
+# Discriminator-Guided Adaptive Diffusion
