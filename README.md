@@ -9,31 +9,8 @@
 
 </div>
 
-> **Abstract.** In this work, we study Source-Free Unsupervised Domain
-Adaptation under corruption-induced domain shifts, where performance
-degradation is caused by natural image corruptions that go beyond addi-
-tive noise, including blur, weather effects, and digital artifacts. We pro-
-pose a diffusion-based, input-level adaptation framework that operates
-entirely at test time and keeps all source-trained models frozen, explicitly
-targeting robustness to corrupted target inputs. Our method leverages
-a source-trained diffusion model as a generative prior and introduces a
-discriminator-guided adaptive diffusion strategy that dynamically con-
-trols the amount of perturbation applied to each test sample. Rather
-than relying on a fixed diffusion depth, the discriminator determines, on
-a per-image basis, when sufficient forward diffusion has been applied to
-suppress corruption-specific artifacts, with each corruption type effec-
-tively defining a distinct target domain. This adaptive stopping mech-
-anism applies only the necessary amount of noise to remove domain-
-specific corruption while preserving class-discriminative structure. The
-reverse diffusion process then reconstructs a source-aligned image, op-
-tionally stabilized through structural guidance, which is classified using
-a frozen source-trained classifier. We evaluate the proposed approach
-across a broad spectrum of corruption-induced target domains, covering
-15 diverse corruption types, and demonstrate more balanced robustness
-with competitive or improved performance across non-noise corruptions.
-Additional analyses reveal how the adaptive diffusion schedule responds
-to different corruption characteristics, highlighting the practicality, gen-
-erality, and robustness of the proposed framework.
+> **Abstract.** In this work, we study Source-Free Unsupervised Domain Adaptation under corruption-induced domain shifts, where performance degradation is caused by natural image corruptions that go beyond additive noise, including blur, weather effects, and digital artifacts. We propose a diffusion-based, input-level adaptation framework that operates entirely at test time and keeps all source-trained models frozen, explicitly targeting robustness to corrupted target inputs. Our method leverages a source-trained diffusion model as a generative prior and introduces a discriminator-guided adaptive diffusion strategy that dynamically controls the amount of perturbation applied to each test sample. Rather than relying on a fixed diffusion depth, the discriminator determines, on a per-image basis, when sufficient forward diffusion has been applied to suppress corruption-specific artifacts, with each corruption type effectively defining a distinct target domain. This adaptive stopping mechanism applies only the necessary amount of noise to remove domain-specific corruption while preserving class-discriminative structure. The reverse diffusion process then reconstructs a source-aligned image, optionally stabilized through structural guidance, which is classified using a frozen source-trained classifier. We evaluate the proposed approach across a broad spectrum of corruption-induced target domains, covering 15 diverse corruption types, and demonstrate more balanced robustness with competitive or improved performance across non-noise corruptions.
+Additional analyses reveal how the adaptive diffusion schedule responds to different corruption characteristics, highlighting the practicality, generality, and robustness of the proposed framework.
 <center><img src="images/method_inference.png"width="70%"></center>
 <!-- > <center><img src="images/method_train.png"width="45%" style="padding-right: 50px;"><img src="images/method_inference.png"width="45%"></center> -->
 
