@@ -120,27 +120,7 @@ python eval_reconstruction.py \
 `gaussian_noise`, `shot_noise`, `impulse_noise`, `defocus_blur`, `glass_blur`, `motion_blur`, `zoom_blur`, `snow`, `frost`, `fog`, `brightness`, `contrast`, `elastic_transform`, `pixelate`, `jpeg_compression`.
 
 #### Some Qualitative Examples
-<div align="center">
-  <div style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="images/sample_noisy.png" width="250px" alt="Noisy input image"><br>
-    <em>Glass Blur Input Image</em>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="images/sample_adapted.png" width="250px" alt="Restored image"><br>
-    <em>Glass Blur Adapted Image</em>
-  </div>
-</div>
-
-<div align="center">
-  <div style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="images/sample_noisy2.png" width="250px" alt="Noisy input image"><br>
-    <em>Elastic Transform Input Image</em>
-  </div>
-  <div style="display: inline-block; text-align: center; margin: 10px;">
-    <img src="images/sample_adapted2.png" width="250px" alt="Restored image"><br>
-    <em>Elastic Transform Adapted Image</em>
-  </div>
-</div>
+<center><img src="images/samples.png"width="60%"></center>
 
 ### Citation  
 Please cite this work as follows if you find it useful:
