@@ -34,7 +34,7 @@ with competitive or improved performance across non-noise corruptions.
 Additional analyses reveal how the adaptive diffusion schedule responds
 to different corruption characteristics, highlighting the practicality, gen-
 erality, and robustness of the proposed framework.
-> <center><img src="images/method_inference.png"width="70%"></center>
+<center><img src="images/method_inference.png"width="70%"></center>
 <!-- > <center><img src="images/method_train.png"width="45%" style="padding-right: 50px;"><img src="images/method_inference.png"width="45%"></center> -->
 
 
