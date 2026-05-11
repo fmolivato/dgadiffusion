@@ -102,9 +102,10 @@ python eval_reconstruction.py \
 ### Citation  
 Please cite this work as follows if you find it useful:
 ```bibtex
-@article{olivato2025dgadiffusion,
+@inproceedings{olivato2026discriminator,
   title={Discriminator-Guided Adaptive Diffusion for Source-Free Test-Time Adaptation under Image Corruptions},
   author={Olivato, Francesco and Beyan, Cigdem and Murino, Vittorio},
-  year={2025}
+  booktitle={Proceedings of the 27th International Conference on Pattern Recognition (ICPR 2026)},
+  year={2026}
 }
 ```
